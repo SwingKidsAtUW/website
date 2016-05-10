@@ -1,0 +1,64 @@
+body {
+	position: relative;
+}
+
+body, .site-section {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.extendedAnchor {
+	position: relative;
+	top: -50px;
+}
+
+.bs-background-grey {
+	background-color: #f7f7f7;
+}
+
+.site-section > .container > .row > div > h2 {
+	padding-bottom: 25px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+.navbar-swingkd {
+	margin-bottom: 0px;
+}
+
+.btn-social {
+	padding: 0px 6px;
+}
+
+#home{
+	background-image: url('../img/bg01.jpg');
+	padding:100px 0;
+	background-position: center top !important;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: white;
+}
+
+.swingkids-brand{
+	width: 100%;
+	text-align: center;
+}
+
+.swingkids-brand img{
+	width: 50%;
+	margin: 120px auto 40px;
+}
+
+.profile-image {
+	padding-top: 20px;
+}
+
+.finger {
+	cursor: pointer;
+}
