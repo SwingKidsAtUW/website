@@ -1,76 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Swing Kids at UW</title>
-
-    <!-- Facebook Post Meta Data -->
-    <meta property="og:title" content="Swing Kids of UW" />
-    <meta property="og:image" content="http://students.washington.edu/swingkd/assets/img/swing-kids-brand-white-bottom-facebook-largest.png" />
-    <meta property="og:description" content="Swing Kids at UW teaches students swing dancing and brings them into the Seattle swing community." />
-    <meta property="og:url" content="http://students.washington.edu/swingkd/" />
-
-
-    <!-- ****** faviconit.com favicons ****** -->
-      <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="./assets/img/faviconit/favicon.ico">
-      <link rel="shortcut icon" type="image/x-icon" href="./assets/img/faviconit/favicon.ico">
-      <link rel="icon" type="image/png" sizes="195x195" href="./assets/img/faviconit/favicon-195.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/faviconit/favicon-152.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/faviconit/favicon-144.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/faviconit/favicon-120.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/faviconit/favicon-114.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/faviconit/favicon-96.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/faviconit/favicon-76.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/faviconit/favicon-72.png">
-      <link rel="apple-touch-icon" href="favicon-57.png">
-      <meta name="msapplication-TileColor" content="#FFFFFF">
-      <meta name="msapplication-TileImage" content="./assets/img/faviconit/favicon-144.png">
-    <!-- ****** faviconit.com favicons ****** -->
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous">
-
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" >
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-swingkd navbar-fixed-top" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="./">
-            <img alt="Brand" src="./assets/img/logo-purple-square.png">
-          </a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#/contact">Contact</a></li>
-            <li><a href="#/lessons">Lessons</a></li>
-            <li><a href="#/events">Events</a></li>
-            <!-- <li><a href="#people">People</a></li> -->
-            <li><a href="./elections/">Elections</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </nav>
+<?php
+    include_once('shared.php');
+    shared_header('./');
+?>
 
     <div id="home" class="site-section">
       <div class="container">
@@ -295,54 +226,6 @@
       </div>
     </div>
 
-    <!-- <div id="people" class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2 class="text-center">Officers:</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 profile-image">
-                <img src="./assets/img/club-images/instructors/ben-white.png" alt="President: John Jeng" class="img-responsive">
-              </div>
-              <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                <div class='person-information'>
-                    <h3 class='name'>John Jeng</h3>
-                    <h4>President</h4>
-                    <p class='description'>John mostly fills his time with dancing, eating, sleeping, and math. He has spent about three years dancing - the most recent years with Swing Kids. He also enjoys being a salty bastard and eating twelve egg omlettes. Other hobbies include sleeping, making food and then eating it, and watching netflix.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 profile-image">
-                <img src="./assets/img/club-images/instructors/ariel-goh.png" alt="Instructor: Ariel Goh" class="img-responsive">
-              </div>
-              <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                <div class='person-information'>
-                    <h3 class='name'>Ariel Goh</h3>
-                    <p class='description'>Ben is well known for his clear instruction and ability to break down and communicate technique while keeping classes entertaining and fun. His instructional resume includes co-founding Eastside Stomp, teaching at the University of Washington and other schools, and traveling for workshops all over the US and Canada. You can also find him leading swing dance classes at SalsaNSeattle or Savoy Swing Club, and working to organize events such as Big Sky Weekend, Emerald City Shuffle, and Northwest Followfest.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-
-    <footer class="text-center site-section"><p>&copy; Copyright 2016 University of Washington Swing Kids</p></footer>
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery.js" integrity="sha384-wciR07FV6RBcI+YEVsZy/bInxpyn0uefUp6Yi9R5r46Qv/yk/osR5nzY31koh9Uq" crossorigin="anonymous"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="Hello World"></script>
-  </body>
-</html>
+<?php
+    shared_footer();
+?>
