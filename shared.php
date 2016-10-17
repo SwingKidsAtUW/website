@@ -1,3 +1,6 @@
+<?php
+    function shared_header($path) {
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
@@ -14,19 +17,19 @@
 
 
     <!-- ****** faviconit.com favicons ****** -->
-      <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="../assets/img/faviconit/favicon.ico">
-      <link rel="shortcut icon" type="image/x-icon" href="../assets/img/faviconit/favicon.ico">
-      <link rel="icon" type="image/png" sizes="195x195" href="../assets/img/faviconit/favicon-195.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="../assets/img/faviconit/favicon-152.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/faviconit/favicon-144.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="../assets/img/faviconit/favicon-120.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/faviconit/favicon-114.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/faviconit/favicon-96.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/faviconit/favicon-76.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/faviconit/favicon-72.png">
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="<?= $path ?>/assets/img/faviconit/favicon.ico">
+      <link rel="shortcut icon" type="image/x-icon" href="<?= $path ?>/assets/img/faviconit/favicon.ico">
+      <link rel="icon" type="image/png" sizes="195x195" href="<?= $path ?>/assets/img/faviconit/favicon-195.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="<?= $path ?>/assets/img/faviconit/favicon-152.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="<?= $path ?>/assets/img/faviconit/favicon-144.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="<?= $path ?>/assets/img/faviconit/favicon-120.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="<?= $path ?>/assets/img/faviconit/favicon-114.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="<?= $path ?>/assets/img/faviconit/favicon-96.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="<?= $path ?>/assets/img/faviconit/favicon-76.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="<?= $path ?>/assets/img/faviconit/favicon-72.png">
       <link rel="apple-touch-icon" href="favicon-57.png">
       <meta name="msapplication-TileColor" content="#FFFFFF">
-      <meta name="msapplication-TileImage" content="../assets/img/faviconit/favicon-144.png">
+      <meta name="msapplication-TileImage" content="<?= $path ?>/assets/img/faviconit/favicon-144.png">
     <!-- ****** faviconit.com favicons ****** -->
 
     <!-- Bootstrap CSS -->
@@ -34,7 +37,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous">
 
     <!-- Site CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css" >
+    <link rel="stylesheet" href="<?= $path ?>/assets/css/style.css" >
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,45 +57,27 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../">
-            <img alt="Brand" src="../assets/img/logo-purple-square.png">
+          <a class="navbar-brand" href="<?= $path ?>">
+            <img alt="Brand" src="<?= $path ?>/assets/img/logo-purple-square.png">
           </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../#/contact">Contact</a></li>
-            <li><a href="../#/lessons">Lessons</a></li>
-            <li><a href="../#/events">Events</a></li>
+            <li><a href="<?= $path ?>#/contact">Contact</a></li>
+            <li><a href="<?= $path ?>#/lessons">Lessons</a></li>
+            <li><a href="<?= $path ?>#/events">Events</a></li>
             <!-- <li><a href="#people">People</a></li> -->
-            <li><a href="./">Elections</a></li>
+            <li><a href="<?= $path ?>elections/">Elections</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-
-
-    <div class="container">
-      <div class="page-header">
-        <h1>Swing Kids Elections</h1>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-          <div class="list-group">
-            <a href="./2017.html" class="list-group-item">2017</a>
-            <a href="./2016.html" class="list-group-item">2016</a>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-
-
+<?php
+    }
+    function shared_footer() {
+?>
     <footer class="text-center site-section"><p>&copy; Copyright 2016 University of Washington Swing Kids</p></footer>
 
     <!-- jQuery -->
@@ -103,3 +88,6 @@
     <script src="Hello World"></script>
   </body>
 </html>
+<?php
+    }
+?>
