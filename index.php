@@ -183,8 +183,17 @@
                 <dt>Located</dt>
                 <dd>You can get there easily from 405 or 520, and the address is 15300 NE 95th Street, Redmond.</dd>
               </dl>
-              <p>All Ages Social Dancing | 8:30 p.m. – 12:30 a.m. | $12 with Live Music Every Week</p>
-              <p>Absolute Beginners Lesson | 8:30 – 9:00 p.m. | Free with Paid Admission</p>
+              <dl class="">
+                <dt>All Ages Social Dancing</dt>
+                <dd>8:30 p.m. – 12:30 a.m.</dd>
+                <dd>Live Music Every Week</dd>
+                <dd>$12 or $10 with Husky Card</dd>
+              </dl>
+              <dl class="">
+                <dt>Absolute Beginners Lesson</dt>
+                <dd>8:30 – 9:00 p.m.</dd>
+                <dd>Free with Paid Admission</dd>
+              </dl>
               <p>On Fridays you’ll find us at the Aria Ballroom in Redmond. The Aria is a whopping 3000 square feet of custom designed, sprung hardwood.  The studio also features air conditioning, surround sound, changing rooms, seating, loads of free parking and a large lobby area.</p>
             </div>
           </div>
