@@ -127,7 +127,7 @@
               <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                 <div class='person-information'>
                     <h3 class='name'>Ben White</h3>
-                    <p class='description'>Ben is well known for his clear instruction and ability to break down and communicate technique while keeping classes entertaining and fun. His instructional resume includes co-founding Eastside Stomp, teaching at the University of Washington and other schools, and traveling for workshops all over the US and Canada. You can also find him leading swing dance classes at SalsaNSeattle or Savoy Swing Club, and working to organize events such as Big Sky Weekend, Emerald City Shuffle, and Northwest Followfest.</p>
+                    <p class='description'>Ben is well known for his clear instruction and ability to break down and communicate technique while keeping classes entertaining and fun. His instructional resume includes co-founding Eastside Stomp, teaching at the University of Washington and other schools, and traveling for workshops all over the US and Canada. You can also find him leading swing dance classes at SalsaNSeattle or Savoy Swing Club, and organizing events such as Big Sky Weekend, Emerald City Shuffle, and Northwest Followfest.</p>
                 </div>
               </div>
             </div>
