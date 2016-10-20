@@ -49,8 +49,7 @@
               <p>Offered Every Quarter</p>
               <h5>What's Covered:</h5>
               <ul>
-                <li>Basic Lindy Hop step</li>
-                <li>Basic partner positions (open and closed)</li>
+                <li>Basic Lindy Hop steps</li>
                 <li>Swingouts</li>
                 <li>Basic spins and turns</li>
                 <li>The Charleston step</li>
@@ -66,9 +65,9 @@
               <h5>What's Covered:</h5>
               <ul>
                 <li>Emphasis on technique and balance</li>
-                <li>Proper muscle engagement</li>
+                <li>Targeted muscle engagement</li>
                 <li>Some solo jazz steps</li>
-                <li>Styling options in social dance settings</li>
+                <li>Rhythmical variations in social dance settings</li>
               </ul>
             </div>
           </div>
@@ -80,9 +79,8 @@
               <p>Offered Every Quarter</p>
               <h5>What's Covered:</h5>
               <ul>
-                <li>Charleston variations</li>
                 <li>Swingout variations</li>
-                <li>Weight change in dance shapes</li>
+                <li>Charleston variations</li>
                 <li>Advanced 8-count steps</li>
                 <li>Focus on body communication</li>
               </ul>
