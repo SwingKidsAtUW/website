@@ -10,7 +10,7 @@
     <title>Swing Kids at UW</title>
 
     <!-- Facebook Post Meta Data -->
-    <meta property="og:title" content="Swing Kids of UW" />
+    <meta property="og:title" content="Swing Kids at UW" />
     <meta property="og:image" content="http://students.washington.edu/swingkd/assets/img/swing-kids-brand-white-bottom-facebook-largest.png" />
     <meta property="og:description" content="Swing Kids at UW teaches students swing dancing and brings them into the Seattle swing community." />
     <meta property="og:url" content="http://students.washington.edu/swingkd/" />
