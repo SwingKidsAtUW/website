@@ -82,6 +82,7 @@
 
         </div>
         <div class="clearfix"></div>
+        
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 
           <div class="panel panel-default">
@@ -128,9 +129,7 @@
               </div>
           </div>
         </div>
-
-
-
+        </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 
           <div class="panel panel-default">
@@ -177,8 +176,54 @@
         </div>
 
 
-      </div>
 
+<!--
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Lessons Coordinator</h3>
+              </div>
+              <div class="panel-body">
+                <p>The Lessons Coordinator books rooms for lessons to be held in each week. Other responsibilities include posting the room locations on the Facebook page and ensuring all lessons have space and instructors.</p>
+
+                <h4>Current Officer:</h4>
+                <div class="media">
+                  <img class="pull-left media-object" src="../assets/img/elections/2018/Lessons.png" alt="Alexandria Spofford - Lessons Coordinator">
+                  <div class="media-body">
+                    <h4 class="media-heading">Alexandria Spofford</h4>
+                    <p>Ask Alexandria about reserving rooms for every week of lessons and coordinating with The HUB!</p>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Performance Captain</h3>
+              </div>
+              <div class="panel-body">
+                <p>The Performance Captain organizes the performance group.  *This is an appointed position, not elected. Please contact Ryan if interested*</p>
+
+                <h4>Current Officer:</h4>
+                <div class="media">
+                  <img class="pull-left media-object" src="../assets/img/elections/2018/Performance.jpg" alt="Ryan Grose - Performance Captain">
+                  <div class="media-body">
+                    <h4 class="media-heading">Ryan Grose</h4>
+                    <p>Ask Ryan about leading the performance group and teaching solo jazz!</p>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
+        -->
+      <!-- </div> -->
     </div>
 
 <?php
