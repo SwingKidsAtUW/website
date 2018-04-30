@@ -25,7 +25,7 @@
                   <div class="panel-body">
                     <div class="row">
                       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-                        <img class="img-responsive" src="../assets/img/elections/2018/Lessons.png" alt="Alexandria Spofford - Running for President">
+                        <img class="img-responsive" src="../../assets/img/elections/2018/Lessons.png" alt="Alexandria Spofford - Running for President">
                       </div>
                       <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
                         <h4 class="">Alexandria Spofford</h4>
@@ -35,7 +35,7 @@
                     <hr>
                     <div class="row">
                       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-                        <img class="img-responsive" src="../assets/img/elections/2018/Events1.jpg" alt="Miranda Bumstead - Running for President">
+                        <img class="img-responsive" src="../../assets/img/elections/2018/Events1.jpg" alt="Miranda Bumstead - Running for President">
                       </div>
                       <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
                         <h4 class="">Miranda Bumstead</h4>
