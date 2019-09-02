@@ -165,7 +165,7 @@
               </dl>
               <dl class="">
                 <dt>Time</dt>
-                <dd>8pm-10:30pm weekly.</dd>
+                <dd>9:30pm-12am weekly.</dd>
               </dl>
               <dl class="">
                 <dt>Entry</dt>
