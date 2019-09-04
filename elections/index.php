@@ -34,7 +34,7 @@
             <li>Applications open: April 18th</li>
             <li>Applications close: April 25th</li>
             <li>Voting opens: May 2nd</li>
-            <li>Voting closes: May 9th</li>
+            <li>Voting closes: May 4th</li>
           </ul>
         </div>
 
@@ -82,7 +82,7 @@
 
         </div>
         <div class="clearfix"></div>
-        
+
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 
           <div class="panel panel-default">
