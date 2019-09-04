@@ -1,4 +1,6 @@
 <?php
+    header('Location: http://swingkd.wixsite.com/swingkidsatuw');
+    die();
     include_once('shared.php');
     shared_header('./');
 ?>
@@ -161,11 +163,11 @@
               <p>A weekly monday night dance for members of Swing Kids at UW! Come join us for an extra opportunity to practice what you've learned in lessons, get help from more experienced members, or simply engage in social dancing with other people in the club.</p>
               <dl class="">
                 <dt>Located</dt>
-                <dd>Open Flight Stuido– 4207 University Way NE. It's on the Ave, just a short walk from campus!</dd>
+                <dd>Exit Space– 414 NE 72nd St, Seattle, WA 98115, just a short bus ride from campus!</dd>
               </dl>
               <dl class="">
                 <dt>Time</dt>
-                <dd>8pm-10:30pm weekly.</dd>
+                <dd>9:30pm-12am weekly.</dd>
               </dl>
               <dl class="">
                 <dt>Entry</dt>
