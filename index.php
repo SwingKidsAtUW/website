@@ -1,8 +1,10 @@
 <?php
-    header('Location: http://swingkd.wixsite.com/swingkidsatuw');
+    // Change since 2019: the main site is now hosted on Wix.
+    $wix_site_url = 'http://swingkd.wixsite.com/swingkidsatuw'
+    header('Location: '.$wix_site_url);
     die();
     include_once('shared.php');
-    shared_header('./');
+    shared_header($wix_site_url.'/');
 ?>
 
     <div id="home" class="site-section">

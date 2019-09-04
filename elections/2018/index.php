@@ -1,6 +1,6 @@
 <?php
     include_once('../../shared.php');
-    shared_header('../../');
+    shared_header('http://swingkd.wixsite.com/swingkidsatuw');
 ?>
 
     <div id="elections" class="site-section">
