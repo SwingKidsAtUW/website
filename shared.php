@@ -65,11 +65,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?= $path ?>#/contact">Contact</a></li>
-            <li><a href="<?= $path ?>#/lessons">Lessons</a></li>
-            <li><a href="<?= $path ?>#/events">Events</a></li>
+            <li><a href="<?= $path ?>/lessons">Lessons</a></li>
+            <li><a href="<?= $path ?>/gallery">Gallery</a></li>
+            <li><a href="<?= $path ?>/about-us">About Us</a></li>
+            <li><a href="<?= $path ?>/contact">Contact</a></li>
             <!-- <li><a href="#people">People</a></li> -->
-            <li><a href="<?= $path ?>elections/">Elections</a></li>
+            <!-- <li><a href="elections/">Elections</a></li> -->
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -78,7 +79,7 @@
     }
     function shared_footer() {
 ?>
-    <footer class="text-center site-section"><p>&copy; Copyright 2016 University of Washington Swing Kids</p></footer>
+    <footer class="text-center site-section"><p>&copy; Copyright 2019 University of Washington Swing Kids</p></footer>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery.js" integrity="sha384-wciR07FV6RBcI+YEVsZy/bInxpyn0uefUp6Yi9R5r46Qv/yk/osR5nzY31koh9Uq" crossorigin="anonymous"></script>
